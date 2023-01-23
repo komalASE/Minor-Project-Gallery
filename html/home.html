@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="navbar">
+                <a href="./home.html">Home </a>
+                <a href="../html/gallery.html">Saved photos</a>
+                <a href="../html/favourite.html">Favourite Photos </a>
+            </div>
+            <!-- <img src="../image/hang.jpeg"> -->
+        </nav>
+        <div class="container">
+            <div class="left-container">
+                <img class="homepage-banner" src="../image/memories.png">
+            </div>
+            <div class="right-container">
+                <h2>Upload your photos HERE !!!</h2>
+                <div class="image-upload-box" onClick="handleUpload()">
+                    <div class="inside-img-box">
+                        <img src="../image/images-icon.png">
+                    </div>
+                    <!-- <span>please uppload your photos</span> -->
+                    <form id='post-form' class='post-form' method='post'>
+                        <!-- <label class='file' for='files'>Select files: </label> -->
+                        <input class='file' id="image-upload" type='file' multiple
+                            accept="image/jpeg , image/png , image/jpg" />
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../javascript/photos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#image-collection {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+#image-collection > img {
+    width:20%;
+    margin: 8px;
+}
+
+.navbar{
+    background-color: rgb(55, 53, 90);
+    height: 30px;
+    padding-top: 11px;
+    padding-left: 70px;
+}
+
+a{
+    margin-right: 40px;
+    margin: 10px 40x 10px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    width: 10%;
+}
+
